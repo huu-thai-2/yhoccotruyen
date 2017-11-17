@@ -1,0 +1,1033 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("fonts/FontAwesome.html"); }
+@media screen and (min-width: 1900px) {
+  .menu li a {
+    font-size: 18px; }
+
+  .nguyen-nhan {
+    padding: 12em 0em; }
+    .nguyen-nhan .container .content-nguyen-nhan {
+      line-height: 60px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-1 {
+        font-size: 40px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-1 .line-2 {
+          font-size: 45px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-3 {
+        font-size: 40px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-3 span {
+          font-size: 45px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-4 {
+        font-size: 40px;
+        width: 100%; }
+
+  #phuong-phap-cay-chi .content-phuong-phap .uu-diem .title-content {
+    font-size: 23px; }
+  #phuong-phap-cay-chi .content-phuong-phap .uu-diem .line {
+    font-size: 20px; }
+    #phuong-phap-cay-chi .content-phuong-phap .uu-diem .line span {
+      font-size: 20px; }
+
+  .kho-khan {
+    padding: 5em 0em; }
+    .kho-khan .kho-khan-2 {
+      padding: 0 0 0 5em; }
+      .kho-khan .kho-khan-2 .line span {
+        font-size: 24px; }
+    .kho-khan:after {
+      bottom: -16%; }
+
+  .giai-phap {
+    padding: 13em 0em; }
+    .giai-phap .title {
+      font-size: 40px; }
+      .giai-phap .title span {
+        font-size: 50px; }
+
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 18%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 18%; } }
+@media screen and (max-width: 1200px) {
+  .menu {
+    margin-bottom: 0px; }
+    .menu .container {
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: 0px;
+      margin-left: 0px; }
+      .menu .container .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 10px; }
+        .menu .container .navbar-collapse li {
+          padding: 2px; }
+
+  .nguyen-nhan {
+    margin-top: -55px;
+    padding: 7em 0em; }
+    .nguyen-nhan .container .content-nguyen-nhan .line-2 {
+      font-size: 33px; }
+    .nguyen-nhan .container .content-nguyen-nhan .line-3 span {
+      font-size: 33px; }
+
+  #phuong-phap-cay-chi .video {
+    padding-top: 25px; }
+
+  .kho-khan {
+    padding: 0; }
+    .kho-khan .kho-khan-1 {
+      margin: 0; }
+      .kho-khan .kho-khan-1 h3 {
+        font-size: 40px; }
+      .kho-khan .kho-khan-1 .line-1 {
+        font-size: 23px; }
+      .kho-khan .kho-khan-1 .line-2 {
+        font-size: 30px; }
+    .kho-khan .kho-khan-2 .line span {
+      font-size: 19px;
+      line-height: 30px; }
+
+  .giai-phap .title span {
+    font-size: 40px; }
+
+  #phuong-phap-cay-chi .title {
+    font-size: 30px; }
+    #phuong-phap-cay-chi .title span {
+      font-size: 30px; }
+  #phuong-phap-cay-chi .content-phuong-phap .video p {
+    font-size: 14px; }
+
+  #uu-diem-cay-chi .row .content-text .description {
+    font-size: 25px; }
+  #uu-diem-cay-chi .row .content-text .line {
+    line-height: 30px; }
+
+  .dieu-tri-benh .title {
+    font-size: 26px; }
+
+  #ly-do-cay-chi .title {
+    font-size: 26px; }
+    #ly-do-cay-chi .title span {
+      font-size: 26px; }
+  #ly-do-cay-chi .tham-khao .box-tham-khao p a {
+    font-size: 16px; }
+
+  #quy-trinh .title {
+    font-size: 27px; }
+    #quy-trinh .title span {
+      font-size: 25px; }
+  #quy-trinh .content ul li.item .description {
+    font-size: 17px; }
+
+  #chuyen-gia-nhan-xet .title {
+    font-size: 27px; }
+    #chuyen-gia-nhan-xet .title span {
+      font-size: 27px; }
+  #chuyen-gia-nhan-xet .content .item .description {
+    padding: 0px 6em; }
+    #chuyen-gia-nhan-xet .content .item .description p.doctor {
+      font-size: 17px; }
+
+  #cam-nhan-benh-nhan .tilte {
+    font-size: 32px; }
+  #cam-nhan-benh-nhan .item {
+    padding: 0px; }
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 2%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 4.8%; }
+
+  .content-ly-do .item .line {
+    font-size: 14px; } }
+@media screen and (max-width: 992px) {
+  .menu {
+    margin-bottom: 0px; }
+    .menu .container {
+      width: 100%;
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: 0px;
+      margin-left: 0px; }
+      .menu .container .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px; }
+        .menu .container .navbar-collapse li {
+          padding: 0px; }
+          .menu .container .navbar-collapse li a {
+            font-size: 15px; }
+
+  .nguyen-nhan {
+    padding: 0; }
+    .nguyen-nhan .container .content-nguyen-nhan {
+      margin: 1em 0em; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-1 {
+        font-size: 22px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-1 .line-2 {
+          font-size: 26px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-3 {
+        font-size: 22px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-3 span {
+          font-size: 26px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-4 {
+        font-size: 22px; }
+
+  .kho-khan {
+    padding: 0px; }
+
+  #phuong-phap-cay-chi .video {
+    padding-top: 25px; }
+
+  #uu-diem-cay-chi {
+    padding: 0;
+    background: none; }
+    #uu-diem-cay-chi .row {
+      margin: 0px; }
+      #uu-diem-cay-chi .row .content-image {
+        background: #e5ecab;
+        padding-bottom: 65px; }
+        #uu-diem-cay-chi .row .content-image .image {
+          padding-left: 17em; }
+        #uu-diem-cay-chi .row .content-image .desription-image {
+          top: 65%;
+          left: 6%; }
+
+  .dieu-tri-benh .row-1:hover .description {
+    background: #093; }
+    .dieu-tri-benh .row-1:hover .description:before {
+      border-right: 40px solid #093;
+      border-left: 20px solid transparent;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent; }
+    .dieu-tri-benh .row-1:hover .description h3 {
+      font-size: 18px; }
+    .dieu-tri-benh .row-1:hover .description p {
+      font-size: 15px; }
+  .dieu-tri-benh .row-1 .description {
+    padding: 50px 20px; }
+    .dieu-tri-benh .row-1 .description p .click {
+      font-size: 15px; }
+  .dieu-tri-benh .row-2 .item:hover .description {
+    background: #093; }
+    .dieu-tri-benh .row-2 .item:hover .description:before {
+      border-right: 40px solid #093;
+      border-left: 20px solid transparent;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent; }
+    .dieu-tri-benh .row-2 .item:hover .description h3 {
+      font-size: 18px; }
+  .dieu-tri-benh .row-2 .item .description {
+    padding: 40px 40px; }
+    .dieu-tri-benh .row-2 .item .description p .click {
+      font-size: 15px; }
+  .dieu-tri-benh .row-3 .item:hover .description {
+    background: #093; }
+    .dieu-tri-benh .row-3 .item:hover .description:before {
+      border-right: 40px solid #093;
+      border-left: 20px solid transparent;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent; }
+    .dieu-tri-benh .row-3 .item:hover .description h3 {
+      font-size: 18px; }
+  .dieu-tri-benh .row-3 .item .description {
+    padding: 40px 40px; }
+    .dieu-tri-benh .row-3 .item .description p .click {
+      font-size: 15px; }
+  .dieu-tri-benh .window-info .box-info {
+    width: 80%;
+    left: 10%; }
+
+  #ly-do-cay-chi .content-ly-do .item .line {
+    font-size: 14px; }
+  #ly-do-cay-chi .tham-khao a {
+    font-size: 16px; }
+
+  #quy-trinh .container {
+    width: 100%; }
+    #quy-trinh .container .item .description {
+      font-size: 15px; }
+
+  #chuyen-gia-nhan-xet .content .item .description {
+    padding: 0; }
+
+  #cam-nhan-benh-nhan .item {
+    padding: 0px; }
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 12%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 12%; }
+
+  .copy-right .container {
+    width: 100%; }
+
+  #footer .container {
+    width: 100%; }
+
+  .kho-khan:after {
+    bottom: -19%; }
+
+  #quy-trinh .content ul li.item .description {
+    font-size: 15px; } }
+@media screen and (max-width: 800px) {
+  .header-logo {
+    position: relative; }
+    .header-logo .icon-toggle {
+      display: block;
+      position: absolute;
+      top: 22%;
+      right: 0%;
+      color: #000;
+      font-size: 35px; }
+      .header-logo .icon-toggle:hover {
+        cursor: pointer; }
+
+  .menu {
+    display: none;
+    background: #056839; }
+    .menu ul li {
+      float: none;
+      z-index: 10; }
+      .menu ul li:before {
+        content: ""; }
+
+  .nguyen-nhan {
+    margin-top: 0; }
+    .nguyen-nhan .container .content-nguyen-nhan {
+      line-height: 35px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-1 {
+        font-size: 20px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-1 .line-2 {
+          font-size: 24px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-3 {
+        font-size: 20px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-3 span {
+          font-size: 24px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-4 {
+        font-size: 20px;
+        width: 60%; }
+
+  .kho-khan:after {
+    bottom: -22%; }
+  .kho-khan .kho-khan-1 {
+    padding-top: 3em; }
+    .kho-khan .kho-khan-1 h3 {
+      font-size: 30px; }
+    .kho-khan .kho-khan-1 .line-1 {
+      font-size: 20px; }
+    .kho-khan .kho-khan-1 .line-2 {
+      font-size: 25px; }
+  .kho-khan .kho-khan-2 {
+    padding: 0.5em 0 0 3em; }
+    .kho-khan .kho-khan-2 .line span {
+      font-size: 18px;
+      line-height: 25px; }
+
+  .giai-phap {
+    padding: 7em 0em; }
+
+  #phuong-phap-cay-chi {
+    padding: 2em 0em; }
+    #phuong-phap-cay-chi .title {
+      font-size: 27px;
+      padding: 0; }
+      #phuong-phap-cay-chi .title span {
+        font-size: 27px; }
+
+  .contact .form-contact .title {
+    font-size: 22px; }
+
+  .dieu-tri-benh .row-1 .image img {
+    object-fit: cover;
+    o-object-fit: cover;
+    width: 100%;
+    height: 180px; }
+  .dieu-tri-benh .row-1 .description {
+    height: 180px;
+    padding: 1em 1em; }
+    .dieu-tri-benh .row-1 .description h3 {
+      font-size: 18px; }
+    .dieu-tri-benh .row-1 .description p {
+      font-size: 15px; }
+    .dieu-tri-benh .row-1 .description:before {
+      display: none; }
+  .dieu-tri-benh .row-2 .item .image img {
+    object-fit: cover;
+    o-object-fit: cover;
+    width: 100%;
+    height: 180px; }
+  .dieu-tri-benh .row-2 .item .description {
+    height: 180px;
+    padding: 2em 1em; }
+    .dieu-tri-benh .row-2 .item .description h3 {
+      font-size: 18px; }
+    .dieu-tri-benh .row-2 .item .description:before {
+      display: none; }
+  .dieu-tri-benh .row-3 .item .image img {
+    object-fit: cover;
+    o-object-fit: cover;
+    width: 100%;
+    height: 150px; }
+  .dieu-tri-benh .row-3 .item .description h3 {
+    font-size: 18px; }
+  .dieu-tri-benh .row-3 .item .description:before {
+    display: none; }
+
+  #ly-do-cay-chi .title {
+    margin: 0;
+    font-size: 22px; }
+    #ly-do-cay-chi .title span {
+      font-size: 22px; }
+  #ly-do-cay-chi .tham-khao .box-tham-khao h3 {
+    font-size: 18px; }
+  #ly-do-cay-chi .tham-khao .box-tham-khao p a {
+    font-size: 15px; }
+
+  #uu-diem-cay-chi .container {
+    width: 100%; }
+  #uu-diem-cay-chi .row {
+    margin: -15px; }
+    #uu-diem-cay-chi .row .content-image {
+      display: none; }
+    #uu-diem-cay-chi .row .content-text {
+      padding: 2em 0 2em 1.5em; }
+
+  #quy-trinh {
+    padding: 30px 0px 0px 0px; }
+    #quy-trinh .title {
+      font-size: 25px; }
+      #quy-trinh .title span {
+        font-size: 24px; }
+    #quy-trinh .content ul li.item {
+      position: relative;
+      margin-bottom: 70px;
+      float: none;
+      width: 100%; }
+      #quy-trinh .content ul li.item:after {
+        font-family: FontAwesome;
+        content: "\f175";
+        top: 110%;
+        left: -5%; }
+      #quy-trinh .content ul li.item .description {
+        padding: 0px 180px; }
+
+  #chuyen-gia-nhan-xet .title {
+    font-size: 25px; }
+    #chuyen-gia-nhan-xet .title span {
+      font-size: 25px; }
+  #chuyen-gia-nhan-xet .content .item .description {
+    padding: 0 2em; }
+  #chuyen-gia-nhan-xet .box-information .window-information {
+    left: 5%; }
+
+  #cam-nhan-benh-nhan .box-information .window-information {
+    left: 5.3%; }
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 4%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 4%; } }
+@media screen and (max-width: 767px) {
+  .header-logo .banner .title {
+    text-align: center; }
+  .header-logo .banner .description {
+    display: block;
+    text-align: center; }
+  .header-logo .icon-toggle {
+    top: 15%;
+    right: 2%; }
+    .header-logo .icon-toggle:hover {
+      cursor: pointer; }
+
+  .menu {
+    background: #056839; }
+    .menu .container {
+      padding-right: 15px;
+      padding-left: 40px; }
+      .menu .container .collapse {
+        display: block; }
+
+  .giai-phap {
+    padding: 5em 0em; }
+
+  .nguyen-nhan .container .content-nguyen-nhan {
+    padding: 0px 90px; }
+
+  .kho-khan .row {
+    padding: 1.5em 0; }
+  .kho-khan .kho-khan-1 {
+    margin: 0;
+    padding-top: 0;
+    text-align: center; }
+  .kho-khan .kho-khan-2 {
+    padding: 1.5em 3em; }
+
+  #uu-diem-cay-chi {
+    padding: 0px; }
+    #uu-diem-cay-chi .title {
+      text-align: center; }
+    #uu-diem-cay-chi .description {
+      text-align: center;
+      margin-bottom: 0.5em; }
+    #uu-diem-cay-chi .row {
+      margin: -15px; }
+      #uu-diem-cay-chi .row .content-text .line span {
+        font-size: 18px; }
+
+  .dieu-tri-benh .row-2 .item {
+    width: 100%; }
+    .dieu-tri-benh .row-2 .item:first-child {
+      margin-bottom: 15px; }
+    .dieu-tri-benh .row-2 .item .description:before {
+      left: -12%; }
+  .dieu-tri-benh .row-3 .item .description {
+    padding: 0.5em; }
+
+  #phuong-phap-cay-chi .content-phuong-phap .video p {
+    font-size: 16px; }
+
+  #ly-do-cay-chi .tham-khao .box-tham-khao {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px; }
+
+  #chuyen-gia-nhan-xet .content .item {
+    padding: 0; }
+    #chuyen-gia-nhan-xet .content .item:first-child {
+      margin-bottom: 2em; }
+    #chuyen-gia-nhan-xet .content .item .description p.line-3 {
+      padding: 0% 30%; }
+  #chuyen-gia-nhan-xet .box-information .window-information {
+    left: 9%;
+    width: 80%; }
+
+  #cam-nhan-benh-nhan .box-information .window-information {
+    top: 1%; }
+  #cam-nhan-benh-nhan .content .item p.detail {
+    padding: 0% 20%; }
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 2%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 2%; }
+
+  .contact .form-contact .box-window-register .window-register {
+    width: 90%;
+    left: 4%;
+    height: auto; }
+
+  #cam-nhan-benh-nhan .box-information .window-information {
+    width: 80%;
+    left: 9%; }
+
+  #footer .telephone-support .box-message .successMessage {
+    width: 80%;
+    left: 10%; } }
+@media only screen and (max-width: 600px) {
+  .kho-khan .kho-khan-2 {
+    border: none; }
+
+  .nguyen-nhan .container .content-nguyen-nhan {
+    padding: 0 0 0 1em; }
+
+  #phuong-phap-cay-chi .title {
+    padding-bottom: 0.3em; }
+
+  .contact .form-contact .button-contact .button-telephone {
+    margin: 0 0 1em;
+    padding: 1em 10em;
+    display: inline-block; }
+  .contact .form-contact .button-contact .button-register {
+    padding: 1em 8.5em;
+    display: inline-block; }
+
+  .dieu-tri-benh .row-1 .description {
+    padding: 4.5em 0; }
+    .dieu-tri-benh .row-1 .description .text {
+      display: none; }
+  .dieu-tri-benh .row-2 .item .description {
+    padding: 4.5em 0; }
+  .dieu-tri-benh .row-3 .item {
+    width: 100%;
+    margin-bottom: 1em; }
+    .dieu-tri-benh .row-3 .item .image {
+      width: 50%;
+      float: left; }
+      .dieu-tri-benh .row-3 .item .image img {
+        object-fit: cover;
+        o-object-fit: cover;
+        width: 100%;
+        height: 180px; }
+    .dieu-tri-benh .row-3 .item .description {
+      width: 50%;
+      float: left;
+      height: 180px;
+      padding: 4.5em 0; }
+    .dieu-tri-benh .row-3 .item:last-child {
+      margin: 0; }
+  .dieu-tri-benh .row-3:after {
+    clear: both; }
+  .dieu-tri-benh .window-info .box-info {
+    width: 90%;
+    left: 5%; }
+    .dieu-tri-benh .window-info .box-info .chua-benh {
+      font-size: 18px; }
+    .dieu-tri-benh .window-info .box-info p {
+      font-size: 16px; }
+
+  #quy-trinh .content ul li.item .description {
+    padding: 0 8em; }
+
+  #chuyen-gia-nhan-xet .content .item .description {
+    padding: 0 5em; }
+    #chuyen-gia-nhan-xet .content .item .description p.line-3 {
+      padding: 0; }
+
+  #cam-nhan-benh-nhan {
+    padding: 1.5em 0em; }
+    #cam-nhan-benh-nhan .controller .next {
+      right: 15%; }
+    #cam-nhan-benh-nhan .controller .prev {
+      left: 15%; }
+
+  #footer .telephone-support .lb-telephone {
+    display: none; }
+  #footer .hotline {
+    display: none; }
+  #footer .container-facebook {
+    top: 5%; } }
+@media only screen and (max-width: 568px) {
+  .nguyen-nhan .container .content-nguyen-nhan .line-4 {
+    width: 70%; }
+
+  .kho-khan .kho-khan-1 h3 {
+    font-size: 27px; }
+  .kho-khan .kho-khan-1 .line-1 {
+    font-size: 18px; }
+  .kho-khan .kho-khan-1 .line-2 {
+    font-size: 22px; }
+  .kho-khan .kho-khan-2 .line {
+    line-height: 25px; }
+    .kho-khan .kho-khan-2 .line span {
+      font-size: 16px; }
+
+  #uu-diem-cay-chi .row .content-image {
+    padding-bottom: 5em; }
+    #uu-diem-cay-chi .row .content-image .desription-image {
+      top: 55%;
+      left: 10%; }
+  #uu-diem-cay-chi .row .content-text {
+    padding-top: 2em; }
+    #uu-diem-cay-chi .row .content-text .title {
+      text-align: center;
+      font-size: 24px; }
+    #uu-diem-cay-chi .row .content-text .description {
+      font-size: 22px;
+      text-align: center; }
+    #uu-diem-cay-chi .row .content-text .line span {
+      font-size: 15px; }
+
+  .contact {
+    padding: 1em 0em; }
+    .contact .form-contact .title {
+      font-size: 20px; }
+
+  #phuong-phap-cay-chi .title {
+    font-size: 25px; }
+    #phuong-phap-cay-chi .title span {
+      font-size: 25px; }
+  #phuong-phap-cay-chi .content-phuong-phap .uu-diem .title-content {
+    font-size: 18px; }
+
+  .giai-phap .title {
+    font-size: 25px; }
+    .giai-phap .title span {
+      font-size: 30px; }
+
+  .dieu-tri-benh {
+    padding: 2em 0; }
+    .dieu-tri-benh .title {
+      font-size: 20px; }
+    .dieu-tri-benh .row-1:hover .description h3 {
+      font-size: 17px; }
+    .dieu-tri-benh .row-1 .description {
+      padding: 4em 0; }
+      .dieu-tri-benh .row-1 .description h3 {
+        font-size: 17px; }
+      .dieu-tri-benh .row-1 .description:before {
+        left: -17%; }
+    .dieu-tri-benh .row-2 .item:hover .description h3 {
+      font-size: 17px; }
+    .dieu-tri-benh .row-2 .item .description {
+      padding: 4em 0; }
+      .dieu-tri-benh .row-2 .item .description h3 {
+        font-size: 17px; }
+      .dieu-tri-benh .row-2 .item .description:before {
+        left: -15%; }
+    .dieu-tri-benh .row-3 .item:hover .description h3 {
+      font-size: 17px; }
+    .dieu-tri-benh .row-3 .item .description {
+      padding: 6em 0; }
+      .dieu-tri-benh .row-3 .item .description h3 {
+        font-size: 17px; }
+
+  #ly-do-cay-chi {
+    padding: 2em 0; }
+    #ly-do-cay-chi .title {
+      font-size: 22px;
+      margin: 0 0 0.3em; }
+    #ly-do-cay-chi .tham-khao .box-tham-khao h3 {
+      font-size: 16px; }
+    #ly-do-cay-chi .tham-khao .box-tham-khao p a {
+      font-size: 14px; }
+
+  #quy-trinh .title {
+    font-size: 22px; }
+    #quy-trinh .title span {
+      font-size: 22px; }
+
+  #chuyen-gia-nhan-xet .title {
+    font-size: 25px; }
+    #chuyen-gia-nhan-xet .title span {
+      font-size: 25px; }
+
+  #cam-nhan-benh-nhan .tilte {
+    font-size: 27px; } }
+@media only screen and (max-width: 480px) {
+  .header-logo .banner .title {
+    font-size: 23px; }
+  .header-logo .banner .description {
+    font-size: 16px; }
+  .header-logo .icon-toggle {
+    top: 20%;
+    right: 5%; }
+
+  .nguyen-nhan .container .content-nguyen-nhan {
+    line-height: 30px;
+    padding: 0 3em; }
+
+  #phuong-phap-cay-chi .title {
+    font-size: 22px; }
+    #phuong-phap-cay-chi .title span {
+      font-size: 22px; }
+  #phuong-phap-cay-chi .content-phuong-phap .uu-diem .title-content {
+    font-size: 18px; }
+
+  .kho-khan {
+    padding: 2em 0; }
+    .kho-khan .row {
+      padding: 0; }
+    .kho-khan .kho-khan-1 h3 {
+      font-size: 30px; }
+    .kho-khan .kho-khan-1 .line-1 {
+      font-size: 20px; }
+    .kho-khan .kho-khan-1 .line-2 {
+      font-size: 22px; }
+    .kho-khan .kho-khan-2 {
+      padding: 1em 0.5em 0 0.5em;
+      border: none; }
+
+  .contact .form-contact .button-contact .button-register {
+    padding: 0.5em 3.5em; }
+  .contact .form-contact .button-contact .button-telephone {
+    padding: 0.5em 5em; }
+
+  #uu-diem-cay-chi .row .content-image {
+    padding-bottom: 7em; }
+    #uu-diem-cay-chi .row .content-image .image {
+      padding-left: 12em; }
+    #uu-diem-cay-chi .row .content-image .desription-image .title {
+      font-size: 15px; }
+    #uu-diem-cay-chi .row .content-image .desription-image .description-text {
+      font-size: 12px; }
+  #uu-diem-cay-chi .row .content-text .title {
+    font-size: 22px; }
+  #uu-diem-cay-chi .row .content-text .description {
+    font-size: 22px; }
+  #uu-diem-cay-chi .row .content-text .line {
+    line-height: 25px; }
+
+  .dieu-tri-benh .title {
+    font-size: 18px; }
+  .dieu-tri-benh .row-3 .item {
+    width: 100%;
+    margin-bottom: 1em; }
+    .dieu-tri-benh .row-3 .item .description:before {
+      bottom: 20%; }
+
+  #ly-do-cay-chi .title {
+    font-size: 21px; }
+    #ly-do-cay-chi .title span {
+      font-size: 21px; }
+
+  #quy-trinh .title {
+    font-size: 20px; }
+    #quy-trinh .title span {
+      font-size: 20px; }
+  #quy-trinh .content ul li.item .description {
+    padding: 0 3em; }
+
+  #chuyen-gia-nhan-xet .title {
+    font-size: 22px; }
+    #chuyen-gia-nhan-xet .title span {
+      font-size: 22px; }
+
+  #cam-nhan-benh-nhan .tilte {
+    font-size: 24px; }
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 10%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 10%; }
+
+  .logo-footer .title {
+    font-size: 20px; }
+  .logo-footer h3 {
+    font-size: 22px; } }
+@media screen and (max-width: 375px) {
+  .header-logo .banner .title {
+    font-size: 20px; }
+  .header-logo .banner .description {
+    font-size: 12px; }
+
+  .nguyen-nhan {
+    padding: 1.2em 0em; }
+    .nguyen-nhan .container .content-nguyen-nhan {
+      padding: 0 1em;
+      line-height: 25px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-1 {
+        font-size: 16px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-1 .line-2 {
+          font-size: 16px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-3 {
+        font-size: 16px; }
+        .nguyen-nhan .container .content-nguyen-nhan .line-3 span {
+          font-size: 16px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-4 {
+        font-size: 15px;
+        width: 80%; }
+
+  .kho-khan .kho-khan-1 h3 {
+    font-size: 26px; }
+  .kho-khan .kho-khan-1 .line-1 {
+    font-size: 18px; }
+  .kho-khan .kho-khan-1 .line-2 {
+    font-size: 20px; }
+  .kho-khan .kho-khan-2 {
+    padding: 1em 1em 0 1em; }
+    .kho-khan .kho-khan-2 .line span {
+      font-size: 13px; }
+
+  .giai-phap .title {
+    font-size: 22px; }
+    .giai-phap .title span {
+      font-size: 25px; }
+
+  #phuong-phap-cay-chi .title {
+    font-size: 20px;
+    padding-bottom: 0; }
+    #phuong-phap-cay-chi .title span {
+      font-size: 20px; }
+  #phuong-phap-cay-chi .content-phuong-phap .uu-diem .title-content {
+    font-size: 16px; }
+  #phuong-phap-cay-chi .content-phuong-phap .uu-diem .line {
+    line-height: 20px; }
+    #phuong-phap-cay-chi .content-phuong-phap .uu-diem .line span {
+      font-size: 15px; }
+
+  #phuong-phap-cay-chi .content-phuong-phap .video p {
+    font-size: 11px; }
+
+  .contact .form-contact .title {
+    font-size: 15px; }
+  .contact .form-contact .button-contact .button-telephone .text {
+    font-size: 15px; }
+  .contact .form-contact .button-contact .button-register .text {
+    font-size: 15px; }
+
+  #uu-diem-cay-chi .row .content-text {
+    padding: 2em 1em; }
+    #uu-diem-cay-chi .row .content-text .title {
+      font-size: 18px; }
+    #uu-diem-cay-chi .row .content-text .description {
+      font-size: 18px; }
+    #uu-diem-cay-chi .row .content-text .line span {
+      font-size: 13px; }
+
+  .dieu-tri-benh .title {
+    font-size: 16px; }
+  .dieu-tri-benh .row-1:hover .description h3 {
+    font-size: 15px; }
+  .dieu-tri-benh .row-1 .image img {
+    object-fit: cover;
+    o-object-fit: cover;
+    width: 100%;
+    height: 150px; }
+  .dieu-tri-benh .row-1 .description {
+    height: 150px; }
+    .dieu-tri-benh .row-1 .description h3 {
+      font-size: 15px; }
+  .dieu-tri-benh .row-2 .item:hover .description h3 {
+    font-size: 15px; }
+  .dieu-tri-benh .row-2 .item .image img {
+    object-fit: cover;
+    o-object-fit: cover;
+    width: 100%;
+    height: 150px; }
+  .dieu-tri-benh .row-2 .item .description {
+    height: 150px;
+    padding: 3.5em 0; }
+    .dieu-tri-benh .row-2 .item .description h3 {
+      font-size: 15px; }
+  .dieu-tri-benh .row-3 .item:hover .description h3 {
+    font-size: 15px; }
+  .dieu-tri-benh .row-3 .item .image img {
+    object-fit: cover;
+    o-object-fit: cover;
+    width: 100%;
+    height: 150px; }
+  .dieu-tri-benh .row-3 .item .description {
+    height: 150px;
+    padding: 4em 0; }
+    .dieu-tri-benh .row-3 .item .description h3 {
+      font-size: 15px; }
+
+  #ly-do-cay-chi .title {
+    font-size: 18px; }
+    #ly-do-cay-chi .title span {
+      font-size: 18px; }
+  #ly-do-cay-chi .content-ly-do .item .line {
+    margin-top: 5px; }
+    #ly-do-cay-chi .content-ly-do .item .line .fa-check {
+      font-size: 14px; }
+  #ly-do-cay-chi .tham-khao .box-tham-khao {
+    width: 95%;
+    padding: 0.5em; }
+    #ly-do-cay-chi .tham-khao .box-tham-khao p a {
+      font-size: 11px; }
+
+  #quy-trinh .title {
+    font-size: 16px; }
+    #quy-trinh .title span {
+      font-size: 15px; }
+  #quy-trinh .content ul li.item .description {
+    padding: 0 3em; }
+
+  #chuyen-gia-nhan-xet {
+    padding: 1.5em 0em; }
+    #chuyen-gia-nhan-xet .title {
+      font-size: 18px; }
+      #chuyen-gia-nhan-xet .title span {
+        font-size: 18px; }
+    #chuyen-gia-nhan-xet .content .item .description {
+      padding: 0 4em; }
+      #chuyen-gia-nhan-xet .content .item .description .doctor {
+        font-size: 15px; }
+      #chuyen-gia-nhan-xet .content .item .description p.line-1 {
+        font-size: 15px; }
+      #chuyen-gia-nhan-xet .content .item .description p.line-2 {
+        font-size: 15px; }
+      #chuyen-gia-nhan-xet .content .item .description p.line-3 {
+        font-size: 14px; }
+      #chuyen-gia-nhan-xet .content .item .description p.xem-them a {
+        font-size: 14px; }
+    #chuyen-gia-nhan-xet .box-information .window-information .name {
+      font-size: 15px; }
+    #chuyen-gia-nhan-xet .box-information .window-information .description {
+      font-size: 15px; }
+    #chuyen-gia-nhan-xet .box-information .window-information .line-1 {
+      font-size: 15px; }
+
+  #cam-nhan-benh-nhan .controller .prev {
+    left: 3%; }
+  #cam-nhan-benh-nhan .controller .next {
+    right: 3%; }
+  #cam-nhan-benh-nhan .content .item .name {
+    font-size: 15px; }
+  #cam-nhan-benh-nhan .content .item p.address {
+    font-size: 13px; }
+  #cam-nhan-benh-nhan .content .item p.detail {
+    padding: 0 2.5em; }
+  #cam-nhan-benh-nhan .box-information .window-information .name {
+    font-size: 15px; }
+  #cam-nhan-benh-nhan .box-information .window-information .description {
+    font-size: 15px; }
+  #cam-nhan-benh-nhan .box-information .window-information .line-1 {
+    font-size: 15px; }
+
+  .logo-footer {
+    padding: 1.5em 0; }
+    .logo-footer .title {
+      font-size: 18px; }
+    .logo-footer h3 {
+      font-size: 20px; }
+    .logo-footer .connect {
+      font-size: 15px; }
+    .logo-footer .address {
+      font-size: 14px; }
+
+  .copy-right p {
+    font-size: 13px; }
+    .copy-right p span {
+      font-size: 13px; } }
+@media screen and (max-width: 320px) {
+  .header-logo .banner .title {
+    font-size: 16px; }
+  .header-logo .banner .description {
+    font-size: 10px; }
+
+  .nguyen-nhan .container .content-nguyen-nhan {
+    padding: 1em 2em; }
+    .nguyen-nhan .container .content-nguyen-nhan .line-1 {
+      font-size: 14px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-1 .line-2 {
+        font-size: 14px; }
+    .nguyen-nhan .container .content-nguyen-nhan .line-3 {
+      font-size: 14px; }
+      .nguyen-nhan .container .content-nguyen-nhan .line-3 span {
+        font-size: 14px; }
+    .nguyen-nhan .container .content-nguyen-nhan .line-4 {
+      font-size: 13px;
+      padding: 0.3em;
+      width: 90%; }
+
+  #phuong-phap-cay-chi .title {
+    font-size: 18px; }
+    #phuong-phap-cay-chi .title span {
+      font-size: 18px;
+      margin-top: 0.3em; }
+
+  .contact .form-contact .title {
+    font-size: 13px; }
+
+  .dieu-tri-benh .title {
+    font-size: 14px; }
+  .dieu-tri-benh .row-2 .item .description {
+    padding: 3.5em 1em; }
+  .dieu-tri-benh .row-3 .item .description {
+    padding: 4em 0.3em; }
+
+  #ly-do-cay-chi .title {
+    font-size: 16px; }
+    #ly-do-cay-chi .title span {
+      font-size: 16px; }
+
+  #quy-trinh .title span {
+    font-size: 13px; }
+
+  #quy-trinh .content ul li.item .description {
+    padding: 0 1em; }
+
+  #chuyen-gia-nhan-xet .content .item .description p.doctor {
+    font-size: 15px; }
+  #chuyen-gia-nhan-xet .content .item .description p.line-1 {
+    font-size: 12px; }
+  #chuyen-gia-nhan-xet .content .item .description p.line-2 {
+    font-size: 12px; }
+
+  #cam-nhan-benh-nhan .tilte {
+    font-size: 20px; }
+
+  .logo-footer .title {
+    font-size: 16px; }
+  .logo-footer .title {
+    font-size: 18px; }
+  .logo-footer .address {
+    font-size: 12px; } }
+
+/*# sourceMappingURL=media.css.map */

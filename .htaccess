@@ -1,0 +1,41 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+order deny,allow
+allow from all
+deny from 1.52.59.178
+
+Options -Indexes
+
+DirectoryIndex index.php
+
+AddDefaultCharset UTF-8
+
+ErrorDocument 301 /index.php?view=error
+ErrorDocument 400 /index.php?view=error
+ErrorDocument 401 /index.php?view=error
+ErrorDocument 403 /index.php?view=error
+ErrorDocument 404 /index.php?view=error
+ErrorDocument 500 /index.php?view=error
+
+RewriteRule ^m/$ - [L]
+RewriteRule ^bando/$ - [L]
+RewriteRule ^chuyende/ - [L]
+RewriteRule ^wifi.html - [L]
+RewriteRule ^chuyende/cay-chi-dong-y.html$ /chuyende/index.php [L]
+RewriteRule ^sitemap.xml$ sitemap.php [L]
+RewriteRule ^404/$ 404.php [L]
+RewriteRule ^ajax/loadtintuc$ ajax/loadtintuc.php [L]
+RewriteRule ^ajax/nhapsdt$ ajax/nhapsdt.php [L]
+RewriteRule ^tim-kiem/(.*)/page-(.*).html$  index.php?p=trangtimkiem&TieuDeKD=$1&pageNum=$2 [L]
+RewriteRule ^tim-kiem/(.*)/$  index.php?p=trangtimkiem&TieuDeKD=$1&pageNum=1 [L]
+
+RewriteRule ^tag/(.*)/page-(.*).html$  index.php?p=tag&TieuDeKD=$1&pageNum=$2 [L]
+RewriteRule ^tag/(.*)/$  index.php?p=tag&TieuDeKD=$1&pageNum=1 [L]
+
+RewriteRule ^(.*)/page-([0-9].*).html$ index.php?p=trangloai&TieuDeKD=$1&pageNum=$2 [L]
+RewriteRule ^(.*)/$ index.php?p=trangloai&TieuDeKD=$1 [L]
+
+RewriteRule ^(.*).html$ index.php?p=trangchitiet&TieuDeKD=$1 [L]
+
+

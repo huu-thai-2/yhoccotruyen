@@ -1,0 +1,3 @@
+<script type="text/javascript">
+	jQuery(document).ready(function(e){e("#gruemenu ul.sub-menu").hide(),e("#gruemenu li").hover(function(){e(this).children("ul.sub-menu").fadeIn(300)},function(){e(this).children("ul.sub-menu").hide()}),e(window).bind("scroll",function(){e(window).scrollTop()>300?e("#gruemenu").addClass("gruefixed"):e("#gruemenu").removeClass("gruefixed")}),e(window).touchwipe({wipeLeft:function(){e.sidr("close","sidr-main")},wipeRight:function(){e.sidr("open","sidr-main")},preventDefaultEvents:!1})});
+</script>
